@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find jaffle_tracking)/launch/jaffle_core.launch" />
+  <include file="$(find jaffle_tracking)/launch/jaffle_lidar.launch" />
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+  
+</launch>
